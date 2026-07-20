@@ -78,11 +78,11 @@ The application uses two distinct data sources for different purposes:
 
 | Name | Student ID | Branch | Contribution | Commits/PRs |
 | :--- | :--- | :--- | :--- | :--- |
-| [Member 1] | [Student ID] | main | [Contribution] | [Commits] |
-| [Member 2] | [Student ID] | main | [Contribution] | [Commits] |
-| [Member 3] | [Student ID] | main | [Contribution] | [Commits] |
-| [Member 4] | [Student ID] | main | [Contribution] | [Commits] |
-| [Member 5] | [Student ID] | main | [Contribution] | [Commits] |
+| [Đinh Văn Thái San] | [DE190240] | main | [Contribution] | [Commits] |
+| [Dương Thành Long] | [DE190230] | main | [Contribution] | [Commits] |
+| [Lê Văn Minh Phát] | [DE190206] | main | [Contribution] | [Commits] |
+| [Nguyễn Hoàng Xuân Ny] | [DE190578] | main | [Contribution] | [Commits] |
+| [Nguyễn Thanh Hoàng] | [DE190354] | main | [Contribution] | [Commits] |
 
 ## 8. Resource Transparency
 
