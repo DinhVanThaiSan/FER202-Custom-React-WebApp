@@ -26,7 +26,7 @@ const About = () => {
 
               <h5 className="mt-4 mb-3">Learning Outcomes (LO1 - LO8) Achieved</h5>
               <ListGroup variant="flush">
-                <ListGroup.Item>✅ <strong>LO1:</strong> Project Setup with CRA & Git.</ListGroup.Item>
+                <ListGroup.Item>✅ <strong>LO1:</strong>  Project Setup with CRA & Git.</ListGroup.Item>
                 <ListGroup.Item>✅ <strong>LO2:</strong> Class & Functional Components.</ListGroup.Item>
                 <ListGroup.Item>✅ <strong>LO3:</strong> JSX, Props, ES6 syntax.</ListGroup.Item>
                 <ListGroup.Item>✅ <strong>LO4:</strong> Bootstrap integration & Custom CSS.</ListGroup.Item>
