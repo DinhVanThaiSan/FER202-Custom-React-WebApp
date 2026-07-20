@@ -7,7 +7,7 @@ const Footer = () => {
       <Container>
         <p className="mb-0">&copy; 2026 Mini E-Commerce. All rights reserved.</p>
       </Container>
-    </footer>
+    </footer> 
   );
 };
 

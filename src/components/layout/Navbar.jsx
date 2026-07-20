@@ -25,7 +25,7 @@ const Navbar = () => {
             </Nav.Link>
           </Nav>
         </BsNavbar.Collapse>
-      </Container>
+      </Container> 
     </BsNavbar>
   );
 };
