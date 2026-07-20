@@ -26,7 +26,7 @@ const EditProduct = () => {
     if (product) {
       setFormData({
         name: product.name,
-        description: product.description,
+        description:  product.description,
         price: product.price.toString(),
         currentPrice: product.currentPrice.toString(),
       });

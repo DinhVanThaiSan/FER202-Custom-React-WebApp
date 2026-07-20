@@ -28,7 +28,7 @@ const Cart = () => {
   }
 
   return (
-    <Container className="mt-4">
+    <Container className=" mt-4">
       <h1 className="mb-4" tabIndex="0">Shopping Cart</h1>
       <Row className="g-4">
         <Col lg={8}>

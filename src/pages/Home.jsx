@@ -20,7 +20,7 @@ const Home = () => {
         <p className="lead text-muted">Your ultimate destination for premium laptops and accessories.</p>
       </div>
       
-      <Card className="shadow-sm mb-5 border-0 bg-light">
+      <Card  className="shadow-sm mb-5 border-0 bg-light">
         <Card.Body className="p-4">
           <h2 className="mb-3 text-center">Project Component Demonstration (LO2 & LO3)</h2>
           <p className="text-center text-muted mb-4">

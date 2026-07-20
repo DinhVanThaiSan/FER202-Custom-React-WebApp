@@ -28,7 +28,7 @@ const ProductDetail = () => {
   const { name, description, price, currentPrice, image } = product;
   
   // Calculate discount: ((price - currentPrice) / price) * 100
-  const discountPercentage = price > 0 && currentPrice < price 
+  const  discountPercentage = price > 0 && currentPrice < price 
     ? Math.round(((price - currentPrice) / price) * 100) 
     : 0;
 

@@ -32,7 +32,7 @@ const Feature = () => {
     }
   }, [status, dispatch]);
 
-  const isLoading = status === 'loading' || status === 'idle';
+  const isLoading  = status === 'loading' || status === 'idle';
 
   // Event Handlers
   const handleSearchChange = (e) => setSearchTerm(e.target.value);
