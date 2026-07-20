@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Asus ROG Strix",
+    "description": "High performance gaming laptop",
+    "price": 35000000,
+    "currentPrice": 32000000,
+    "image": "/images/products/laptop1.png"
+  },
+  {
+    "id": 2,
+    "name": "Dell XPS 13",
+    "description": "Premium ultrabook with infinity display",
+    "price": 40000000,
+    "currentPrice": 38000000,
+    "image": "/images/products/laptop2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "HP Spectre x360",
+    "description": "Convertible 2-in-1 laptop",
+    "price": 38000000,
+    "currentPrice": 35000000,
+    "image": "/images/products/laptop3.png"
+  },
+  {
+    "id": 4,
+    "name": "Apple MacBook Pro 14",
+    "description": "M2 Pro chip, powerful for creators",
+    "price": 50000000,
+    "currentPrice": 48000000,
+    "image": "/images/products/laptop4.png"
+  },
+  {
+    "id": 5,
+    "name": "Lenovo ThinkPad X1",
+    "description": "Best business laptop",
+    "price": 42000000,
+    "currentPrice": 39000000,
+    "image": "/images/products/laptop5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Acer Predator Helios",
+    "description": "Heavy duty gaming machine",
+    "price": 33000000,
+    "currentPrice": 30000000,
+    "image": "/images/products/laptop6.png"
+  },
+  {
+    "id": 7,
+    "name": "MSI Stealth 15M",
+    "description": "Thin and light gaming",
+    "price": 31000000,
+    "currentPrice": 28000000,
+    "image": "/images/products/laptop7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Asus ZenBook 14",
+    "description": "Compact and elegant",
+    "price": 25000000,
+    "currentPrice": 23000000,
+    "image": "/images/products/laptop8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Apple MacBook Air M2",
+    "description": "Silent and portable",
+    "price": 28000000,
+    "currentPrice": 26000000,
+    "image": "/images/products/laptop9.png"
+  },
+  {
+    "id": 10,
+    "name": "HP Omen 16",
+    "description": "Desktop replacement gaming",
+    "price": 36000000,
+    "currentPrice": 34000000,
+    "image": "/images/products/laptop10.png"
+  }
+]
