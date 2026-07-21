@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Row, Col, Card, Button, Spinner, Alert } from 'react-bootstrap';
 
+//main component that fetches and displays related electronics items.
 const RelatedElectronics = () => {
   const [electronics, setElectronics] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  //runs once on mount to load data from the FakeStore API.
   useEffect(() => {
     const fetchElectronics = async () => {
       try {

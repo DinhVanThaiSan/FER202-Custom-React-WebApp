@@ -3,6 +3,7 @@ import { Form, Button, Card, Row, Col, Alert } from 'react-bootstrap';
 import { useDispatch } from 'react-redux';
 import { addProduct } from '../features/products/productsSlice';
 
+//Main component that renders the add-product form and manages the form state.
 const AddProductForm = () => {
   const dispatch = useDispatch();
   const [formData, setFormData] = useState({
@@ -14,10 +15,12 @@ const AddProductForm = () => {
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
 
+  //Updates the form data whenever the user types in an input field.
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  //Handles the form submission, validates the inputs, creates a new product object, sends it to the Redux store, resets the form, and shows success or error messages.
   const handleSubmit = (e) => {
     e.preventDefault();
     setError('');
@@ -54,7 +57,7 @@ const AddProductForm = () => {
     dispatch(addProduct(newProduct));
     setSuccess('Product added successfully!');
     setFormData({ name: '', description: '', price: '', currentPrice: '' });
-    
+
     // Clear success message after 3 seconds
     setTimeout(() => setSuccess(''), 3000);
   };
@@ -67,7 +70,7 @@ const AddProductForm = () => {
       <Card.Body className="bg-dark text-white p-4">
         {error && <Alert variant="danger">{error}</Alert>}
         {success && <Alert variant="success">{success}</Alert>}
-        
+
         <Form onSubmit={handleSubmit}>
           <Row className="g-3 align-items-center mb-3">
             <Col md={2} className="text-end">
@@ -82,7 +85,7 @@ const AddProductForm = () => {
               />
             </Col>
           </Row>
-          
+
           <Row className="g-3 align-items-center mb-3">
             <Col md={2} className="text-end">
               <Form.Label className="mb-0">Description:</Form.Label>

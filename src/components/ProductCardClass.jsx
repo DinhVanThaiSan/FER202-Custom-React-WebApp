@@ -2,10 +2,13 @@ import React, { Component } from 'react';
 import { Card, Button } from 'react-bootstrap';
 
 class ProductCardClass extends Component {
+
+  //Formats a number into Vietnamese currency using the VND format.
   formatVND = (amount) => {
     return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(amount);
   };
 
+  //Renders the product card UI, displays the product name, description, prices, image, and action buttons.
   render() {
     const { product } = this.props;
     const { name, description, price, currentPrice, image } = product;

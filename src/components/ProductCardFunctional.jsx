@@ -4,14 +4,17 @@ import { useDispatch } from 'react-redux';
 import { addToCart } from '../features/cart/cartSlice';
 import { Link } from 'react-router-dom';
 
+//renders the product card UI
 const ProductCardFunctional = ({ product }) => {
   const { id, name, description, price, currentPrice, image } = product;
   const dispatch = useDispatch();
 
+  //formats the price into Vietnamese currency
   const formatVND = (amount) => {
     return new Intl.NumberFormat('vi-VN').format(amount) + ' đ';
   };
 
+  //dispatches the product to the cart state
   const handleAddToCart = () => {
     dispatch(addToCart(product));
   };

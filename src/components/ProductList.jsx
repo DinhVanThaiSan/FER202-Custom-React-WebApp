@@ -4,19 +4,23 @@ import { useDispatch } from 'react-redux';
 import { deleteProduct } from '../features/products/productsSlice';
 import { Link } from 'react-router-dom';
 
+//renders the list of products in a table UI.
 const ProductList = ({ products }) => {
   const dispatch = useDispatch();
 
+  //formats a number into Vietnamese currency
   const formatVND = (amount) => {
     return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(amount);
   };
 
+  //onfirms deletion and dispatches the delete action if the user confirms.
   const handleDelete = (id, name) => {
     if (window.confirm(`Are you sure you want to delete ${name}?`)) {
       dispatch(deleteProduct(id));
     }
   };
 
+  //displays a message saying no products found.
   if (!products || products.length === 0) {
     return <div className="text-center my-4 text-muted border p-4 bg-white rounded shadow-sm">No products found.</div>;
   }
